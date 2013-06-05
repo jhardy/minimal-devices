@@ -10,7 +10,7 @@ iPhone 5 - black and white variant
 iPad - black and white variant
 
 ## Mark up
-*iPhone 5*
+**iPhone 5**
 ```html
 <div class="iphone-5 white-device">
      <div class="body">
@@ -39,7 +39,7 @@ iPad - black and white variant
 </div>
 ```
 
-*iPad*
+**iPad**
 ```html
 <div class="ipad white-device">
     <div class="body">
