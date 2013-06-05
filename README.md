@@ -39,24 +39,24 @@ iPad - black and white variant
 </div>
 ```
 
-
 *iPad*
-    <div class="ipad white-device">
-        <div class="body">
-            <div class="front-camera"></div>
-            <div class="screen"></div>
+```html
+<div class="ipad white-device">
+    <div class="body">
+        <div class="front-camera"></div>
+        <div class="screen"></div>
 
-            <button class="home-button"></button>
-        </div>
+        <button class="home-button"></button>
     </div>
+</div>
 
 
-    <div class="ipad black-device">
-        <div class="body">
-            <div class="front-camera"></div>
-            <div class="screen"></div>
+<div class="ipad black-device">
+    <div class="body">
+        <div class="front-camera"></div>
+        <div class="screen"></div>
 
-            <button class="home-button"></button>
-        </div>
+        <button class="home-button"></button>
     </div>
-
+</div>
+```
