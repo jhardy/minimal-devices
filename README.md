@@ -2,6 +2,7 @@ Minimal CSS Devices
 ===============
 
 A set of css only devices minimally styled. Still a work in progress.
+Currently requires compass and sass, but will be ported to plain sass or can use the compiled css
 
 
 ## Current Devices
