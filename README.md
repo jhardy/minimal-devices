@@ -11,31 +11,34 @@ iPad - black and white variant
 
 ## Mark up
 *iPhone 5*
-    <div class="iphone-5 white-device">
-         <div class="body">
+```html
+<div class="iphone-5 white-device">
+     <div class="body">
 
-            <div class="buttons"></div>
+        <div class="buttons"></div>
 
-            <div class="front-camera"></div>
-            <div class="top-speaker"></div>
-            <div class="screen"></div>
+        <div class="front-camera"></div>
+        <div class="top-speaker"></div>
+        <div class="screen"></div>
 
-            <button class="home-button"></button>
-        </div>
+        <button class="home-button"></button>
     </div>
+</div>
 
-    <div class="iphone-5 black-device">
-         <div class="body">
+<div class="iphone-5 black-device">
+     <div class="body">
 
-            <div class="buttons"></div>
+        <div class="buttons"></div>
 
-            <div class="front-camera"></div>
-            <div class="top-speaker"></div>
-            <div class="screen"></div>
+        <div class="front-camera"></div>
+        <div class="top-speaker"></div>
+        <div class="screen"></div>
 
-            <button class="home-button"></button>
-        </div>
+        <button class="home-button"></button>
     </div>
+</div>
+```
+
 
 *iPad*
     <div class="ipad white-device">
