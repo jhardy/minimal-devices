@@ -1,0 +1,21 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "../components/sass-pack/sass-pack";
+@import "compass/css3";
+
+@include normalize();
+@include border-box-sizing();
+
+
+@import "minimal-devices";
+
+@import "iphone";
+@import "ipad";
+
+
+.iphone-5, .ipad {
+    margin: 100px auto;
+}
