@@ -11,7 +11,6 @@ iPad - black and white variant
 
 ## Mark up
 *iPhone 5*
-   ``
     <div class="iphone-5 white-device">
          <div class="body">
 
@@ -37,9 +36,8 @@ iPad - black and white variant
             <button class="home-button"></button>
         </div>
     </div>
-    ``
+
 *iPad*
-    ``
     <div class="ipad white-device">
         <div class="body">
             <div class="front-camera"></div>
@@ -58,4 +56,4 @@ iPad - black and white variant
             <button class="home-button"></button>
         </div>
     </div>
-    ``
+
