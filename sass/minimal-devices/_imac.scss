@@ -59,8 +59,8 @@
 		height: pxtoem(98);
 		margin: 0 auto;
 		background: #cccdcf;
-		@include background(linear-gradient(darken(#cccdcf, 8%), #cccdcf));
-		-webkit-transform: perspective(800) rotate3d(1, 0, 0, 30deg);
+		@include background(linear-gradient(darken(#cccdcf, 8%), #cccdcf 50%, lighten(#cccdcf,5%) 80%, #cccdcf, darken(#cccdcf, 5%)));
+		@include transform(perspective(pxtoem(800)) rotate3d(1, 0, 0, 30deg));
 	}
 
 	.foot {
@@ -68,11 +68,11 @@
 		height: pxtoem(50);
 		margin: 0 auto;
 		position: relative;
-		bottom: 23px;
+		bottom: pxtoem(23);
 		border-radius: 0 0 pxtoem(10) pxtoem(10);
-		@include background(linear-gradient(darken(#cccdcf, 8%), #cccdcf));
-		-webkit-transform: perspective(190) rotate3d(1, 0, 0, 70deg);
-		box-shadow: 0 6px 0 darken(#cccdcf, 5%);
+		@include background(linear-gradient(darken(#cccdcf, 5%) 20%, #cccdcf));
+		@include transform(perspective(pxtoem(190)) rotate3d(1, 0, 0, 70deg));
+		box-shadow: 0 pxtoem(6) 0 darken(#cccdcf, 5%);
 	}
 
 }
