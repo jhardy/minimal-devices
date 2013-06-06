@@ -68,7 +68,7 @@
 		height: pxtoem(50);
 		margin: 0 auto;
 		position: relative;
-		bottom: pxtoem(23);
+		bottom: pxtoem(24);
 		border-radius: 0 0 pxtoem(10) pxtoem(10);
 		@include background(linear-gradient(darken(#cccdcf, 5%) 20%, #cccdcf));
 		@include transform(perspective(pxtoem(190)) rotate3d(1, 0, 0, 70deg));
