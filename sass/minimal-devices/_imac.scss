@@ -1,0 +1,79 @@
+.imac {
+	width: pxtoem(1000);
+	height: pxtoem(800);
+
+	.body {
+		width: 100%;
+		height: pxtoem(690);
+		background: #c6c7ca;
+		border-radius: pxtoem(30);
+		overflow: hidden;
+	}
+
+	.top {
+		width: 100%;
+		height: pxtoem(595);
+		background: #0f0f0f;
+	}
+
+	.screen {
+		width: pxtoem(920);
+		height: pxtoem(518);
+		margin: 0 auto;
+		position: relative;
+		top: pxtoem(38);
+		background: #17171a;
+	}
+
+	.camera {
+		width:  pxtoem(6);
+		height: pxtoem(6);
+		margin: 0 auto;
+		position: relative;
+		top: pxtoem(20);
+		background: #000;
+		border-radius: 100%;
+		box-shadow: inset 0 -1px 0 rgba(#fff, 0.25);
+
+		&:after {
+			content: "";
+			display: block;
+			width: pxtoem(2);
+			height: pxtoem(2);
+			position: absolute;
+			left: pxtoem(2);
+			top: pxtoem(1);
+			background: #353542;
+			border-radius: 100%;
+		}
+	}
+	
+	.base {
+		width: pxtoem(308);
+		height: pxtoem(110);
+		margin: pxtoem(-9) auto;		
+	}
+
+	.stand {
+		width: pxtoem(210);
+		height: pxtoem(98);
+		margin: 0 auto;
+		background: #cccdcf;
+		@include background(linear-gradient(darken(#cccdcf, 8%), #cccdcf));
+		-webkit-transform: perspective(800) rotate3d(1, 0, 0, 30deg);
+	}
+
+	.foot {
+		width: pxtoem(240);
+		height: pxtoem(50);
+		margin: 0 auto;
+		position: relative;
+		bottom: 23px;
+		border-radius: 0 0 pxtoem(10) pxtoem(10);
+		@include background(linear-gradient(darken(#cccdcf, 8%), #cccdcf));
+		-webkit-transform: perspective(190) rotate3d(1, 0, 0, 70deg);
+		box-shadow: 0 6px 0 darken(#cccdcf, 5%);
+	}
+
+}
+
