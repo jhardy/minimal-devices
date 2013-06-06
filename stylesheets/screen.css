@@ -121,7 +121,7 @@
   top: 3.75em;
 }
 .iphone-5 .home-button {
-  bottom: -5.3125em;
+  bottom: -5.9375em;
 }
 .iphone-5 .buttons {
   width: 0.1875em;
@@ -168,7 +168,7 @@
   top: 6.25em;
 }
 .ipad .home-button {
-  bottom: -8.125em;
+  bottom: -8.75em;
 }
 
 .white-device .front-camera, .white-device .top-speaker, .white-device .home-button {
@@ -239,9 +239,24 @@
   width: 45em;
   height: 30.625em;
   margin: 0 auto;
+  position: relative;
   border-radius: 1.875em;
   border: solid 0.1875em #cdced1;
   background: #131313;
+}
+.macbook-pro .lid:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.25em 0 0;
+  background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }
 .macbook-pro .camera {
   width: 0.375em;
@@ -316,6 +331,21 @@
   width: 100%;
   height: 37.1875em;
   background: #0f0f0f;
+  position: relative;
+}
+.imac .top:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.25em 0 0;
+  background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }
 .imac .screen {
   width: 57.5em;
