@@ -231,6 +231,55 @@
   background: #1b211e;
 }
 
-.iphone-5, .ipad {
+.macbook-pro {
+  width: 55.3125em;
+  height: 31.875em;
+}
+.macbook-pro .lid {
+  width: 45em;
+  height: 30.625em;
+  margin: 0 auto;
+  border-radius: 1.875em;
+  border: solid 0.1875em #cdced1;
+  background: #131313;
+}
+.macbook-pro .screen {
+  width: 42.25em;
+  height: 26.375em;
+  margin: 0 auto;
+  position: relative;
+  top: 2.5em;
+  background: #1d1d1d;
+}
+.macbook-pro .base {
+  width: 100%;
+  height: 0.9375em;
+  position: relative;
+  top: -0.75em;
+  background: #c6c7ca;
+}
+.macbook-pro .base:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  margin: 0 auto;
+  position: relative;
+  bottom: -0.1875em;
+  background: #b9babe;
+  border-radius: 0 0 1.25em 1.25em;
+}
+.macbook-pro .base:before {
+  content: "";
+  display: block;
+  width: 7.6875em;
+  height: 0.625em;
+  margin: 0 auto;
+  position: relative;
+  background: #a6a8ad;
+  border-radius: 0 0 0.625em 0.625em;
+}
+
+.iphone-5, .ipad, .macbook-pro {
   margin: 100px auto;
 }
