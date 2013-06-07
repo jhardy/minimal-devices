@@ -74,7 +74,23 @@
         }
     }
 
-    @extend %glare;
+
+    &.glare {
+        @extend %glare;
+    }
+
+    &.landscape {
+        @include transform3d(rotateZ(90deg));
+
+        &.glare {
+            &:before {
+                @include transform(rotateY(180deg));
+                left: pxtoem(10);
+                top: pxtoem(10);
+            }
+        }
+    }
+
     @extend %toggle;
 }
 

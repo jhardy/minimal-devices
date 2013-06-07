@@ -36,6 +36,14 @@
     &:after {
         background: $white-phone-base;
     }
+
+    &.landscape {
+
+        .home-button, .front-camera, .top-speaker {
+            @include background( linear-gradient(left, #d0d0c5, #eeeeea));
+        }
+
+    }
 }
 
 .black-device {
@@ -74,5 +82,12 @@
 
     &:after {
         background: $black-phone-base;
+    }
+
+    &.landscape {
+
+        .home-button, .front-camera, .top-speaker {
+            @include background( linear-gradient(left, #141917, #202623));
+        }
     }
 }
