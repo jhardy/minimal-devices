@@ -1,10 +1,10 @@
 @import "utilities";
 
-.macbook-pro {
+.md-macbook-pro {
 	width: pxtoem(885);
 	height: pxtoem(510);
 
-	.lid {
+	.md-lid {
 		width: pxtoem(720);
 		height: pxtoem(490);
 		margin: 0 auto;
@@ -27,7 +27,7 @@
     }
 	}
 
-	.camera {
+	.md-camera {
 		width:  pxtoem(6);
 		height: pxtoem(6);
 		margin: 0 auto;
@@ -50,7 +50,7 @@
 		}
 	}
 
-	.screen {
+	.md-screen {
 		width: pxtoem(676);
 		height: pxtoem(422);
 		margin: 0 auto;
@@ -59,7 +59,7 @@
 		background: #1d1d1d;
 	}
 
-	.base {
+	.md-base {
 		width: 100%;
 		height: pxtoem(15);
 		position: relative;

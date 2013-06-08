@@ -1,12 +1,12 @@
 @import "utilities";
 
 
-.imac {
+.md-imac {
 	width: pxtoem(1000);
 	height: pxtoem(800);
 
 
-	.body {
+	.md-body {
 		width: 100%;
 		height: pxtoem(690);
 		background: #c6c7ca;
@@ -14,7 +14,7 @@
 		overflow: hidden;
 	}
 
-	.top {
+	.md-top {
 		width: 100%;
 		height: pxtoem(595);
 		background: #0f0f0f;
@@ -33,7 +33,7 @@
     }
 	}
 
-	.screen {
+	.md-screen {
 		width: pxtoem(920);
 		height: pxtoem(518);
 		margin: 0 auto;
@@ -42,7 +42,7 @@
 		background: #17171a;
 	}
 
-	.camera {
+	.md-camera {
 		width:  pxtoem(6);
 		height: pxtoem(6);
 		margin: 0 auto;
@@ -65,13 +65,13 @@
 		}
 	}
 	
-	.base {
+	.md-base {
 		width: pxtoem(308);
 		height: pxtoem(110);
 		margin: pxtoem(-9) auto;		
 	}
 
-	.stand {
+	.md-stand {
 		width: pxtoem(210);
 		height: pxtoem(98);
 		margin: 0 auto;
@@ -80,7 +80,7 @@
 		@include transform(perspective(pxtoem(800)) rotate3d(1, 0, 0, 30deg));
 	}
 
-	.foot {
+	.md-foot {
 		width: pxtoem(240);
 		height: pxtoem(50);
 		margin: 0 auto;

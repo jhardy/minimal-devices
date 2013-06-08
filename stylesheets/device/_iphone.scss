@@ -1,23 +1,23 @@
 @import "utilities";
 @import "shared-structure";
 
-.iphone-5 {
+.md-iphone-5 {
     width: pxtoem(365);
     height: pxtoem(784);
     position: relative;
 
 
-    .body {
+    .md-body {
         @extend %device-body
     }
 
-    .front-camera {
+    .md-front-camera {
         top: pxtoem(20);
         @extend %front-camera;
 
     }
 
-    .top-speaker {
+    .md-top-speaker {
         width: pxtoem(60);
         height: pxtoem(14);
         margin: 0 auto;
@@ -39,19 +39,19 @@
         }
     }
 
-    .screen {
+    .md-screen {
         width: pxtoem(320);
         height: pxtoem(568);
         top: pxtoem(60);
         @extend %device-screen;
     }
 
-    .home-button {
+    .md-home-button {
         bottom: pxtoem(-95);
         @extend %home-button;
     }
 
-    .buttons {
+    .md-buttons {
         width: pxtoem(3);
         height: pxtoem(30);
         position: absolute;
@@ -78,14 +78,14 @@
     }
 
 
-    &.glare {
+    &.md-glare {
         @extend %glare;
     }
 
-    &.landscape {
+    &.md-landscape {
         @include transform3d(rotateZ(90deg));
 
-        &.glare {
+        &.md-glare {
             &:before {
                 @include transform(rotateY(180deg));
                 left: pxtoem(10);

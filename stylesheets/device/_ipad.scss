@@ -1,39 +1,30 @@
 @import "utilities";
 @import "shared-structure";
 
-.ipad {
+.md-ipad {
     width: pxtoem(854);
     height: pxtoem(1271);
     position: relative;
 
-    .body {
+    .md-body {
         @extend %device-body;
     }
 
-     button {
-        display: block;
-        border: none;
-        position: absolute;
-        padding: 0;
-        border-radius: pxtoem(2) 0 0 pxtoem(2);
-        cursor: none;
-    }
-
-    .front-camera {
+    .md-front-camera {
 
         top: pxtoem(50);
         @extend %front-camera;
 
     }
 
-    .screen {
+    .md-screen {
         width: pxtoem(768);
         height: pxtoem(1024);
         top: pxtoem(100);
         @extend %device-screen;
     }
 
-    .home-button {
+    .md-home-button {
         bottom: pxtoem(-140);
         @extend %home-button;
     }
