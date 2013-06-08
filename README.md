@@ -13,51 +13,53 @@ iPad - black and white variant
 ## Mark up
 **iPhone 5**
 ```html
-<div class="iphone-5 white-device">
-     <div class="body">
+<div class="md-iphone-5 md-white-device md-glare">
+     <div class="md-body">
 
-        <div class="buttons"></div>
+        <div class="md-buttons"></div>
 
-        <div class="front-camera"></div>
-        <div class="top-speaker"></div>
-        <div class="screen"></div>
+        <div class="md-front-camera"></div>
+        <div class="md-top-speaker"></div>
+        <div class="md-screen"></div>
 
-        <button class="home-button"></button>
+        <button class="md-home-button"></button>
     </div>
 </div>
 
-<div class="iphone-5 black-device">
-     <div class="body">
+<div class="md-iphone-5 md-black-device md-glare">
+     <div class="md-body">
 
-        <div class="buttons"></div>
+        <div class="md-buttons"></div>
 
-        <div class="front-camera"></div>
-        <div class="top-speaker"></div>
-        <div class="screen"></div>
+        <div class="md-front-camera"></div>
+        <div class="md-top-speaker"></div>
+        <div class="md-screen"></div>
 
-        <button class="home-button"></button>
+        <button class="md-home-button"></button>
     </div>
 </div>
 ```
 
 **iPad**
 ```html
-<div class="ipad white-device">
-    <div class="body">
-        <div class="front-camera"></div>
-        <div class="screen"></div>
+<div class="md-ipad md-white-device md-glare">
+    <div class="md-body">
+        <div class="md-front-camera"></div>
+        <div class="md-screen"></div>
 
-        <button class="home-button"></button>
+        <button class="md-home-button"></button>
     </div>
 </div>
 
 
-<div class="ipad black-device">
-    <div class="body">
-        <div class="front-camera"></div>
-        <div class="screen"></div>
+<div class="md-ipad md-black-device md-glare">
+    <div class="md-body">
+        <div class="md-front-camera"></div>
+        <div class="md-screen"></div>
 
-        <button class="home-button"></button>
+        <button class="md-home-button"></button>
     </div>
 </div>
 ```
+
+
