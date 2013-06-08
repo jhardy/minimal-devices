@@ -1,21 +1,21 @@
-.imac {
+.md-imac {
   width: 62.5em;
   height: 50em;
 }
-.imac .body {
+.md-imac .md-body {
   width: 100%;
   height: 43.125em;
   background: #c6c7ca;
   border-radius: 1.875em;
   overflow: hidden;
 }
-.imac .top {
+.md-imac .md-top {
   width: 100%;
   height: 37.1875em;
   background: #0f0f0f;
   position: relative;
 }
-.imac .top:after {
+.md-imac .md-top:after {
   content: "";
   display: block;
   width: 50%;
@@ -29,7 +29,7 @@
   background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
   background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }
-.imac .screen {
+.md-imac .md-screen {
   width: 57.5em;
   height: 32.375em;
   margin: 0 auto;
@@ -37,7 +37,7 @@
   top: 2.375em;
   background: #17171a;
 }
-.imac .camera {
+.md-imac .md-camera {
   width: 0.375em;
   height: 0.375em;
   margin: 0 auto;
@@ -47,7 +47,7 @@
   border-radius: 100%;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
 }
-.imac .camera:after {
+.md-imac .md-camera:after {
   content: "";
   display: block;
   width: 0.125em;
@@ -58,12 +58,12 @@
   background: #353542;
   border-radius: 100%;
 }
-.imac .base {
+.md-imac .md-base {
   width: 19.25em;
   height: 6.875em;
   margin: -0.5625em auto;
 }
-.imac .stand {
+.md-imac .md-stand {
   width: 13.125em;
   height: 6.125em;
   margin: 0 auto;
@@ -78,7 +78,7 @@
   -o-transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
   transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
 }
-.imac .foot {
+.md-imac .md-foot {
   width: 15em;
   height: 3.125em;
   margin: 0 auto;

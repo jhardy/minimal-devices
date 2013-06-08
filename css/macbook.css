@@ -1,8 +1,8 @@
-.macbook-pro {
+.md-macbook-pro {
   width: 55.3125em;
   height: 31.875em;
 }
-.macbook-pro .lid {
+.md-macbook-pro .md-lid {
   width: 45em;
   height: 30.625em;
   margin: 0 auto;
@@ -11,7 +11,7 @@
   border: solid 0.1875em #cdced1;
   background: #131313;
 }
-.macbook-pro .lid:after {
+.md-macbook-pro .md-lid:after {
   content: "";
   display: block;
   width: 50%;
@@ -25,7 +25,7 @@
   background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
   background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }
-.macbook-pro .camera {
+.md-macbook-pro .md-camera {
   width: 0.375em;
   height: 0.375em;
   margin: 0 auto;
@@ -35,7 +35,7 @@
   border-radius: 100%;
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
 }
-.macbook-pro .camera:after {
+.md-macbook-pro .md-camera:after {
   content: "";
   display: block;
   width: 0.125em;
@@ -46,7 +46,7 @@
   background: #353542;
   border-radius: 100%;
 }
-.macbook-pro .screen {
+.md-macbook-pro .md-screen {
   width: 42.25em;
   height: 26.375em;
   margin: 0 auto;
@@ -54,14 +54,14 @@
   top: 2.0625em;
   background: #1d1d1d;
 }
-.macbook-pro .base {
+.md-macbook-pro .md-base {
   width: 100%;
   height: 0.9375em;
   position: relative;
   top: -0.75em;
   background: #c6c7ca;
 }
-.macbook-pro .base:after {
+.md-macbook-pro .md-base:after {
   content: "";
   display: block;
   width: 100%;
@@ -72,7 +72,7 @@
   background: #b9babe;
   border-radius: 0 0 1.25em 1.25em;
 }
-.macbook-pro .base:before {
+.md-macbook-pro .md-base:before {
   content: "";
   display: block;
   width: 7.6875em;
