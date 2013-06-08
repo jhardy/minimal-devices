@@ -1,3 +1,6 @@
+@import "utilities";
+@import "shared-structure";
+
 .iphone-5 {
     width: pxtoem(365);
     height: pxtoem(784);
@@ -93,4 +96,7 @@
 
     @extend %toggle;
 }
+
+
+@import "color-variations";
 

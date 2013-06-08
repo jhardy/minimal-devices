@@ -1,3 +1,6 @@
+@import "utilities";
+@import "shared-structure";
+
 .ipad {
     width: pxtoem(854);
     height: pxtoem(1271);
@@ -51,3 +54,5 @@
         }
     }
 }
+
+@import "color-variations";
