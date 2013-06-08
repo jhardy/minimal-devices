@@ -1,0 +1,90 @@
+.macbook-pro {
+	width: pxtoem(885);
+	height: pxtoem(510);
+
+	.lid {
+		width: pxtoem(720);
+		height: pxtoem(490);
+		margin: 0 auto;
+		position: relative;
+		border-radius: pxtoem(30);
+		border: solid pxtoem(3) #cdced1;
+		background: #131313;
+
+
+		&:after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 pxtoem(20) 0 0;
+        @include background(linear-gradient( bottom left, rgba(#fff, 0) 50%, rgba(#f7f8f0, 0.025) 50%, rgba(#faf5fc, 0.08) ));
+    }
+	}
+
+	.camera {
+		width:  pxtoem(6);
+		height: pxtoem(6);
+		margin: 0 auto;
+		position: relative;
+		top: pxtoem(17);
+		background: #000;
+		border-radius: 100%;
+		box-shadow: inset 0 -1px 0 rgba(#fff, 0.25);
+
+		&:after {
+			content: "";
+			display: block;
+			width: pxtoem(2);
+			height: pxtoem(2);
+			position: absolute;
+			left: pxtoem(2);
+			top: pxtoem(1);
+			background: #353542;
+			border-radius: 100%;
+		}
+	}
+
+	.screen {
+		width: pxtoem(676);
+		height: pxtoem(422);
+		margin: 0 auto;
+		position: relative;
+		top: pxtoem(33);
+		background: #1d1d1d;
+	}
+
+	.base {
+		width: 100%;
+		height: pxtoem(15);
+		position: relative;
+		top: pxtoem(-12);
+		background: #c6c7ca;
+
+		&:after {
+			content: "";
+			display: block;
+			width: 100%;
+			height: pxtoem(8);
+			margin: 0 auto;
+			position: relative;
+			bottom: pxtoem(-3);
+			background: darken(#c6c7ca, 5%);
+			border-radius: 0 0 pxtoem(20) pxtoem(20);
+		}
+
+		&:before {
+			content: "";
+			display: block;
+			width: pxtoem(123);
+			height: pxtoem(10);
+			margin: 0 auto;
+			position: relative;
+			background: darken(#c6c7ca, 12%);
+			border-radius: 0 0 pxtoem(10) pxtoem(10);
+		}
+	}
+}
