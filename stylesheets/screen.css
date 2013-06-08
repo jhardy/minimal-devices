@@ -217,6 +217,20 @@
   background: linear-gradient(#141917, #202623);
 }
 
+.white-device.landscape .home-button, .white-device.landscape .front-camera, .white-device.landscape .top-speaker {
+  background: -webkit-linear-gradient(left, #d0d0c5, #eeeeea);
+  background: -moz-linear-gradient(left, #d0d0c5, #eeeeea);
+  background: -o-linear-gradient(left, #d0d0c5, #eeeeea);
+  background: linear-gradient(to right, #d0d0c5, #eeeeea);
+}
+
+.black-device.landscape .home-button, .black-device.landscape .front-camera, .black-device.landscape .top-speaker {
+  background: -webkit-linear-gradient(left, #141917, #202623);
+  background: -moz-linear-gradient(left, #141917, #202623);
+  background: -o-linear-gradient(left, #141917, #202623);
+  background: linear-gradient(to right, #141917, #202623);
+}
+
 .white-device .body {
   background-color: #ebebe4;
   border-color: #f1f2eb;
@@ -238,12 +252,6 @@
 }
 .white-device:after {
   background: #ebebe4;
-}
-.white-device.landscape .home-button, .white-device.landscape .front-camera, .white-device.landscape .top-speaker {
-  background: -webkit-linear-gradient(left, #d0d0c5, #eeeeea);
-  background: -moz-linear-gradient(left, #d0d0c5, #eeeeea);
-  background: -o-linear-gradient(left, #d0d0c5, #eeeeea);
-  background: linear-gradient(to right, #d0d0c5, #eeeeea);
 }
 
 .black-device .body {
@@ -267,12 +275,6 @@
 }
 .black-device:after {
   background: #1b211e;
-}
-.black-device.landscape .home-button, .black-device.landscape .front-camera, .black-device.landscape .top-speaker {
-  background: -webkit-linear-gradient(left, #141917, #202623);
-  background: -moz-linear-gradient(left, #141917, #202623);
-  background: -o-linear-gradient(left, #141917, #202623);
-  background: linear-gradient(to right, #141917, #202623);
 }
 
 .macbook-pro {

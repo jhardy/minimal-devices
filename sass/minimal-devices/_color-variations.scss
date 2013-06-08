@@ -1,5 +1,10 @@
-%white-gradient { @include background( linear-gradient(#d0d0c5, #eeeeea) ); }
-%black-gradient { @include background( linear-gradient(#141917, #202623) ); }
+// Portrait Gradients
+%white-gradient { @include background(linear-gradient(#d0d0c5, #eeeeea)); }
+%black-gradient { @include background(linear-gradient(#141917, #202623)); }
+
+//Landscape Gradients
+%white-gradient-landscape { @include background(linear-gradient(left, #d0d0c5, #eeeeea)); }
+%black-gradient-landscape { @include background(linear-gradient(left, #141917, #202623)); }
 
 .white-device {
     .body {
@@ -40,7 +45,7 @@
     &.landscape {
 
         .home-button, .front-camera, .top-speaker {
-            @include background( linear-gradient(left, #d0d0c5, #eeeeea));
+            @extend %white-gradient-landscape;
         }
 
     }
@@ -87,7 +92,7 @@
     &.landscape {
 
         .home-button, .front-camera, .top-speaker {
-            @include background( linear-gradient(left, #141917, #202623));
+            @extend %black-gradient-landscape;
         }
     }
 }
