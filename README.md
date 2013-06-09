@@ -62,4 +62,31 @@ iPad - black and white variant
 </div>
 ```
 
+**Macbook Pro**
+```html
+<div class="md-macbook-pro">
+    <div class="md-lid">
+        <div class="md-camera"></div>
+        <div class="md-screen"></div>
+    </div>
+
+    <div class="md-base"></div>
+</div>
+```
+
+**iMac**
+ <div class="md-imac">
+    <div class="md-body">
+        <div class="md-top">
+            <div class="md-camera"></div>
+            <div class="md-screen"></div>
+        </div>
+    </div>
+
+    <div class="md-base">
+        <div class="md-stand"></div>
+        <div class="md-foot"></div>
+    </div>
+</div>
+
 
