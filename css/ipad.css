@@ -61,7 +61,7 @@
   border-radius: 100%;
 }
 
-.md-ipad.glare:before {
+.md-ipad.md-glare:before {
   content: "";
   display: block;
   width: 50%;
@@ -100,7 +100,7 @@
   -o-transform: rotateZ(90deg);
   transform: rotateZ(90deg);
 }
-.md-ipad.landscape.glare:before {
+.md-ipad.landscape.md-glare:before {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);

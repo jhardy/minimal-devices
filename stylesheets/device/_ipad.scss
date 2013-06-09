@@ -29,14 +29,14 @@
         @extend %home-button;
     }
 
-    &.glare {
+    &.md-glare {
         @extend %glare;
     }
 
     &.landscape {
         @include transform3d(rotateZ(90deg));
 
-        &.glare {
+        &.md-glare {
             &:before {
                 @include transform(rotateY(180deg));
                 left: pxtoem(10);

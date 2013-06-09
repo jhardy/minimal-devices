@@ -15,7 +15,7 @@
   background: #0f0f0f;
   position: relative;
 }
-.md-imac .md-top:after {
+.md-imac .md-glare:after {
   content: "";
   display: block;
   width: 50%;
