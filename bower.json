@@ -17,6 +17,10 @@
     "css-output/",
     "lib/",
     "pkg/",
-    "stylesheets/"
+    "stylesheets/",
+    "Gemfile",
+    "Gemfile.lock",
+    "minimal-devices.gemspec",
+    "Rakefile"
   ]
 }
