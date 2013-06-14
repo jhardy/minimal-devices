@@ -33,7 +33,7 @@
         @extend %glare;
     }
 
-    &.landscape {
+    &.md-landscape {
         @include transform3d(rotateZ(90deg));
 
         &.md-glare {

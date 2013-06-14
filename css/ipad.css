@@ -93,14 +93,14 @@
 .md-ipad .md-home-button {
   bottom: -8.75em;
 }
-.md-ipad.landscape {
+.md-ipad.md-landscape {
   -webkit-transform: rotateZ(90deg);
   -moz-transform: rotateZ(90deg);
   -ms-transform: rotateZ(90deg);
   -o-transform: rotateZ(90deg);
   transform: rotateZ(90deg);
 }
-.md-ipad.landscape.md-glare:before {
+.md-ipad.md-landscape.md-glare:before {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   -ms-transform: rotateY(180deg);

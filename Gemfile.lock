@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    minimal-devices (0.5.2)
+    minimal-devices (0.5.3)
 
 GEM
   remote: https://rubygems.org/
