@@ -79,7 +79,7 @@ $black-phone-base: #1b211e;
         height: 80%;
         position: absolute;
         top: pxtoem(12);
-        right: pxtoem(0);
+        right: pxtoem(12);
         border-radius: 0 pxtoem(50) 0 0;
         @include background(linear-gradient( bottom left, rgba(#fff, 0) 50%, rgba(#f7f8f0, 0.025) 50%, rgba(#faf5fc, 0.08) ));
         z-index: 100;

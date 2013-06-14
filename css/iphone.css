@@ -68,7 +68,7 @@
   height: 80%;
   position: absolute;
   top: 0.75em;
-  right: 0em;
+  right: 0.75em;
   border-radius: 0 3.125em 0 0;
   background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
   background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));

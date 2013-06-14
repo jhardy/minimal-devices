@@ -93,8 +93,5 @@
 		@include transform(perspective(pxtoem(190)) rotate3d(1, 0, 0, 70deg));
 		box-shadow: 0 pxtoem(6) 0 darken(#cccdcf, 5%);
 	}
-
-
-
 }
 
