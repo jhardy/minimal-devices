@@ -75,6 +75,7 @@ iPad - black and white variant
 ```
 
 **iMac**
+```html
  <div class="md-imac">
     <div class="md-body">
         <div class="md-top">
@@ -88,5 +89,6 @@ iPad - black and white variant
         <div class="md-foot"></div>
     </div>
 </div>
+```
 
 
