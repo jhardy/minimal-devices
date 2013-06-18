@@ -11,20 +11,6 @@
   border: solid 0.1875em #cdced1;
   background: #131313;
 }
-.md-macbook-pro .md-glare:after {
-  content: "";
-  display: block;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 0 1.25em 0 0;
-  background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-}
 .md-macbook-pro .md-camera {
   width: 0.375em;
   height: 0.375em;
@@ -81,4 +67,18 @@
   position: relative;
   background: #a6a8ad;
   border-radius: 0 0 0.625em 0.625em;
+}
+.md-macbook-pro.md-glare .md-lid:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.25em 0 0;
+  background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }

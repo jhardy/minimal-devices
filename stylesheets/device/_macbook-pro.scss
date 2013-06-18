@@ -14,19 +14,6 @@
 		background: #131313;
 	}
 
-	.md-glare {
-			&:after {
-      content: "";
-      display: block;
-      width: 50%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      right: 0;
-      border-radius: 0 pxtoem(20) 0 0;
-      @include background(linear-gradient( bottom left, rgba(#fff, 0) 50%, rgba(#f7f8f0, 0.025) 50%, rgba(#faf5fc, 0.08) ));
-    }
-	}
 
 	.md-camera {
 		width:  pxtoem(6);
@@ -89,5 +76,19 @@
 			background: darken(#c6c7ca, 12%);
 			border-radius: 0 0 pxtoem(10) pxtoem(10);
 		}
+	}
+
+	&.md-glare {
+			.md-lid:after {
+      content: "";
+      display: block;
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-radius: 0 pxtoem(20) 0 0;
+      @include background(linear-gradient( bottom left, rgba(#fff, 0) 50%, rgba(#f7f8f0, 0.025) 50%, rgba(#faf5fc, 0.08) ));
+    }
 	}
 }

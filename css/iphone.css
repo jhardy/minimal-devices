@@ -68,7 +68,7 @@
   height: 80%;
   position: absolute;
   top: 0.75em;
-  right: 0.75em;
+  right: 0em;
   border-radius: 0 3.125em 0 0;
   background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
   background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
@@ -176,14 +176,14 @@
   background: linear-gradient(#141917, #202623);
 }
 
-.md-white-device.md-landscape .home-button, .md-white-device.md-landscape .front-camera, .md-white-device.md-landscape .top-speaker {
+.md-white-device.md-landscape .md-home-button, .md-white-device.md-landscape .md-front-camera, .md-white-device.md-landscape .md-top-speaker {
   background: -webkit-linear-gradient(left, #d0d0c5, #eeeeea);
   background: -moz-linear-gradient(left, #d0d0c5, #eeeeea);
   background: -o-linear-gradient(left, #d0d0c5, #eeeeea);
   background: linear-gradient(to right, #d0d0c5, #eeeeea);
 }
 
-.md-black-device.md-landscape .home-button, .md-black-device.md-landscape .front-camera, .md-black-device.md-landscape .top-speaker {
+.md-black-device.md-landscape .md-home-button, .md-black-device.md-landscape .md-front-camera, .md-black-device.md-landscape .md-top-speaker {
   background: -webkit-linear-gradient(left, #141917, #202623);
   background: -moz-linear-gradient(left, #141917, #202623);
   background: -o-linear-gradient(left, #141917, #202623);
