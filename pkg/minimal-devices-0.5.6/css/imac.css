@@ -1,0 +1,98 @@
+.md-imac {
+  width: 62.5em;
+  height: 50em;
+}
+.md-imac .md-body {
+  width: 100%;
+  height: 43.125em;
+  background: #c6c7ca;
+  border-radius: 1.875em;
+  overflow: hidden;
+}
+.md-imac .md-top {
+  width: 100%;
+  height: 37.1875em;
+  background: #0f0f0f;
+  position: relative;
+}
+.md-imac .md-screen {
+  width: 57.5em;
+  height: 32.375em;
+  margin: 0 auto;
+  position: relative;
+  top: 2.375em;
+  background: #17171a;
+}
+.md-imac .md-camera {
+  width: 0.375em;
+  height: 0.375em;
+  margin: 0 auto;
+  position: relative;
+  top: 1.25em;
+  background: #000;
+  border-radius: 100%;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
+}
+.md-imac .md-camera:after {
+  content: "";
+  display: block;
+  width: 0.125em;
+  height: 0.125em;
+  position: absolute;
+  left: 0.125em;
+  top: 0.0625em;
+  background: #353542;
+  border-radius: 100%;
+}
+.md-imac .md-base {
+  width: 19.25em;
+  height: 6.875em;
+  margin: -0.5em auto;
+}
+.md-imac .md-stand {
+  width: 13.125em;
+  height: 6.125em;
+  margin: 0 auto;
+  background: #cccdcf;
+  background: -webkit-linear-gradient(#b7b8bb, #cccdcf 50%, #d9dadb 80%, #cccdcf, #bfc0c3);
+  background: -moz-linear-gradient(#b7b8bb, #cccdcf 50%, #d9dadb 80%, #cccdcf, #bfc0c3);
+  background: -o-linear-gradient(#b7b8bb, #cccdcf 50%, #d9dadb 80%, #cccdcf, #bfc0c3);
+  background: linear-gradient(#b7b8bb, #cccdcf 50%, #d9dadb 80%, #cccdcf, #bfc0c3);
+  -webkit-transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
+  -moz-transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
+  -ms-transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
+  -o-transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
+  transform: perspective(50em) rotate3d(1, 0, 0, 30deg);
+}
+.md-imac .md-foot {
+  width: 15em;
+  height: 3.125em;
+  margin: 0 auto;
+  position: relative;
+  bottom: 1.5em;
+  border-radius: 0 0 0.625em 0.625em;
+  background: -webkit-linear-gradient(#bfc0c3 20%, #cccdcf);
+  background: -moz-linear-gradient(#bfc0c3 20%, #cccdcf);
+  background: -o-linear-gradient(#bfc0c3 20%, #cccdcf);
+  background: linear-gradient(#bfc0c3 20%, #cccdcf);
+  -webkit-transform: perspective(11.875em) rotate3d(1, 0, 0, 70deg);
+  -moz-transform: perspective(11.875em) rotate3d(1, 0, 0, 70deg);
+  -ms-transform: perspective(11.875em) rotate3d(1, 0, 0, 70deg);
+  -o-transform: perspective(11.875em) rotate3d(1, 0, 0, 70deg);
+  transform: perspective(11.875em) rotate3d(1, 0, 0, 70deg);
+  box-shadow: 0 0.375em 0 #bfc0c3;
+}
+.md-imac.md-glare .md-top:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.25em 0 0;
+  background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+}
