@@ -1,8 +1,9 @@
 require "bundler/gem_tasks"
 require 'rake/packagetask'
 
-desc "Compile to  css"
-task :builder  do
+
+desc "Compile to css and package"
+task :builder do
 
     Dir.chdir('css-output') do
         sh("compass compile --force")
