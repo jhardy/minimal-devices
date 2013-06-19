@@ -8,7 +8,6 @@ task :builder  do
         sh("compass compile --force")
     end
 
-
     sh("rake repackage")
     sh("rake build")
 
