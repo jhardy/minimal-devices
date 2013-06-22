@@ -12,7 +12,6 @@ task :builder do
     sh("rake repackage")
 end
 
-
 Rake::PackageTask.new('minimal-devices', "#{Minimal::Devices::VERSION}") do |p|
     p.need_zip = true;
     p.package_files.include("css/*", "templates/*/*")
