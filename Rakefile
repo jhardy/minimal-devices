@@ -8,8 +8,8 @@ task :builder do
         sh("compass compile --force")
     end
 
-    sh("rake build")
     sh("rake repackage")
+    sh("rake build")
 end
 
 Rake::PackageTask.new('minimal-devices', "#{Minimal::Devices::VERSION}") do |p|

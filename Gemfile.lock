@@ -13,7 +13,7 @@ GEM
       sass (~> 3.2.5)
     listen (0.7.3)
     rake (10.0.4)
-    sass (3.2.8)
+    sass (3.2.9)
 
 PLATFORMS
   ruby
@@ -23,3 +23,4 @@ DEPENDENCIES
   compass (~> 0.13.alpha.4)
   minimal-devices!
   rake
+  sass (~> 3.2.9)
