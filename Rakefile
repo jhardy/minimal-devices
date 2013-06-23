@@ -9,10 +9,14 @@ task :builder do
     end
 
     sh("rake repackage")
+
+    sh("rm -f -r dist/minimal-devices")
     sh("rake build")
 end
 
-Rake::PackageTask.new('minimal-devices', "#{Minimal::Devices::VERSION}") do |p|
+Rake::PackageTask.new('minimal-devices', :noversion) do |p|
     p.need_zip = true;
-    p.package_files.include("css/*", "templates/*/*")
+    p.package_files.include("css/*", "templates/*/*")	
+    p.package_dir = "dist"
+
 end
