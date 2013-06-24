@@ -13,6 +13,7 @@
   width: 100%;
   height: 37.1875em;
   background: #0f0f0f;
+  border-radius: 1.875em 1.875em 0 0;
   position: relative;
 }
 .md-imac .md-screen {
