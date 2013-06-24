@@ -71,19 +71,15 @@ $black-phone-base: #1b211e;
 
 // For glare
 %glare {
-
-    &:before {
-        content: "";
-        display: block;
-        width: 50%;
-        height: 80%;
-        position: absolute;
-        top: pxtoem(10);
-        right: pxtoem(10);
-        border-radius: 0 pxtoem(50) 0 0;
-        @include background(linear-gradient( bottom left, rgba(#fff, 0) 50%, rgba(#f7f8f0, 0.025) 50%, rgba(#faf5fc, 0.08) ));
-        z-index: 100;
-    }
+    content: "";
+    display: block;
+    width: 50%;
+    height: 83%;
+    position: absolute;
+    top: pxtoem(10);
+    right: pxtoem(10);
+    border-radius: 0 pxtoem(50) 0 0;
+    z-index: 1;
 }
 
 // On off toggle button

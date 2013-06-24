@@ -30,7 +30,10 @@
     }
 
     &.md-glare {
-        @extend %glare;
+        &:before {
+            @extend %glare;
+            @include background(linear-gradient(68deg, rgba(#fff, 0) 50%, rgba(#f7f8f0, 0.025) 50%, rgba(#faf5fc, 0.08)));
+        }
     }
 
     &.md-landscape {

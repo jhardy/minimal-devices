@@ -7,6 +7,6 @@ Compass::Frameworks.register('minimal-devices',
 
 module Minimal
   module Devices
-    VERSION = "0.5.8"
+    VERSION = "0.5.8.1"
   end
 end

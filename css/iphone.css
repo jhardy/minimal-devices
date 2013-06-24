@@ -65,16 +65,12 @@
   content: "";
   display: block;
   width: 50%;
-  height: 80%;
+  height: 83%;
   position: absolute;
   top: 0.625em;
   right: 0.625em;
   border-radius: 0 3.125em 0 0;
-  background: -webkit-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: -moz-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: -o-linear-gradient(bottom left, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  z-index: 100;
+  z-index: 1;
 }
 
 .md-iphone-5:after {
@@ -144,6 +140,12 @@
 }
 .md-iphone-5 .md-buttons:before {
   top: 6.25em;
+}
+.md-iphone-5.md-glare:before {
+  background: -webkit-linear-gradient(16deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(16deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(16deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(74deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
 }
 .md-iphone-5.md-landscape {
   -webkit-transform: rotateZ(90deg);
