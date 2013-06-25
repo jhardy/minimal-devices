@@ -39,6 +39,10 @@
   position: relative;
   top: 2.0625em;
   background: #1d1d1d;
+  overflow: hidden;
+}
+.md-macbook-pro .md-screen img {
+  width: 100%;
 }
 .md-macbook-pro .md-base {
   width: 100%;

@@ -1,6 +1,7 @@
 .md-imac {
   width: 62.5em;
   height: 50em;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 .md-imac .md-body {
   width: 100%;
@@ -23,6 +24,10 @@
   position: relative;
   top: 2.375em;
   background: #17171a;
+  overflow: hidden;
+}
+.md-imac .md-screen img {
+  width: 100%;
 }
 .md-imac .md-camera {
   width: 0.375em;
