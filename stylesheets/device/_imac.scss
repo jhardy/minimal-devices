@@ -4,7 +4,7 @@
 .md-imac {
 	width: pxtoem(1000);
 	height: pxtoem(800);
-
+	-webkit-transform: translate3d(0,0,0);
 
 	.md-body {
 		width: 100%;
@@ -29,6 +29,11 @@
 		position: relative;
 		top: pxtoem(38);
 		background: #17171a;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+		}
 	}
 
 	.md-camera {

@@ -45,6 +45,11 @@
 		position: relative;
 		top: pxtoem(33);
 		background: #1d1d1d;
+		overflow: hidden;
+
+		img {
+			width: 100%;
+		}
 	}
 
 	.md-base {
