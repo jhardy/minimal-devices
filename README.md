@@ -70,23 +70,29 @@ iMac
 
 **Macbook Pro**
 ```html
-<div class="md-macbook-pro">
+<div class="md-macbook-pro md-glare">
     <div class="md-lid">
         <div class="md-camera"></div>
-        <div class="md-screen"></div>
-    </div>
 
+        <div class="md-screen">
+       	<!-- Your content here -->
+        </div>
+
+    </div>
     <div class="md-base"></div>
 </div>
 ```
 
 **iMac**
 ```html
- <div class="md-imac">
+<div class="md-imac md-glare">
     <div class="md-body">
         <div class="md-top">
             <div class="md-camera"></div>
-            <div class="md-screen"></div>
+
+            <div class="md-screen">
+      		<!-- Your content here -->
+            </div>
         </div>
     </div>
 
@@ -95,6 +101,7 @@ iMac
         <div class="md-foot"></div>
     </div>
 </div>
+
 ```
 
 
