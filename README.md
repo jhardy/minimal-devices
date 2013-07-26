@@ -4,11 +4,17 @@ Minimal CSS Devices
 A set of css only devices minimally styled. Still a work in progress.
 Currently requires compass and sass, but will be ported to plain sass or can you use the compiled css.
 
+See [http://jaredhardy.com/minimal-devices/](http://jaredhardy.com/minimal-devices/) for full documentation
+
 
 ## Current Devices
 iPhone 5 - black and white variant
 
 iPad - black and white variant
+
+Macbook Pro
+
+iMac
 
 ## Mark up
 **iPhone 5**
