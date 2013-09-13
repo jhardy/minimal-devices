@@ -1,0 +1,31 @@
+$iphone_5c_green: #97e365;
+$iphone_5c_blue: #40b1eb;
+$iphone_5c_yellow: #feef6e;
+$iphone_5c_red: #ff6c6c;
+$iphone_5c_white: #efefee;
+
+$iphone_5c_color_variations: green, blue, yellow, red, white;
+$iphone_5c_color_list: $iphone_5c_green, $iphone_5c_blue, $iphone_5c_yellow, $iphone_5c_red, $iphone_5c_white;
+
+@for $i from 1 through length($iphone_5c_color_variations) {
+    $color: nth($iphone_5c_color_list, $i);
+    .md-5c-#{nth($iphone_5c_color_variations, $i)} {
+        .md-body {
+            border-color: $color;
+        }
+
+        .md-buttons {
+            background-color: $color;
+
+            &:after, &:before {
+                background-color: $color;
+            }
+        }
+
+        &:after {
+            background: $color;
+        }
+    }
+}
+
+

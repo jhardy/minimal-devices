@@ -1,7 +1,6 @@
 require "bundler/gem_tasks"
 require 'rake/packagetask'
 
-
 desc "Compile to css and package"
 task :builder do
 
